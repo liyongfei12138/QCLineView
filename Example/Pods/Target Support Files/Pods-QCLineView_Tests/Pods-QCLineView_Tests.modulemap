@@ -1,0 +1,6 @@
+framework module Pods_QCLineView_Tests {
+  umbrella header "Pods-QCLineView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

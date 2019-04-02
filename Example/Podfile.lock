@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QCLineView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QCLineView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  QCLineView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QCLineView: 5a17f70edd43236d6fbb5e4fd897d0ce0d6c02dd
+
+PODFILE CHECKSUM: 8843ee2be48206303422c9b57776fd4661ea43d9
+
+COCOAPODS: 1.5.3
