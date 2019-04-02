@@ -51,7 +51,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    self.klineView.frame = self.frame;
+    self.klineView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
    
 }
 
