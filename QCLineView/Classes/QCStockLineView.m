@@ -10,8 +10,6 @@
 
 @interface QCStockLineView()<QCLineChartViewDelegate>
 
-//@property (strong, nonatomic)  YKTimeLineView *timeLineView;
-
 @property (strong, nonatomic)  QCLineChartView *klineView;
 @end
 @implementation QCStockLineView
@@ -53,18 +51,8 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
-    [self configLayout];
-}
-
-- (void)configLayout
-{
-    [self.klineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.left.top.bottom.mas_equalTo(self);
-        
-    }];
-    
-  
+    self.klineView.frame = self.frame;
+   
 }
 
 -(void)reloadData:(NSArray *)data
