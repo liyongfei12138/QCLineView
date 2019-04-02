@@ -9,7 +9,7 @@
 ## Requirements
 ```需要导入头文件QCStockLineView.h，这个就是k线图的view。
  使用 -(instancetype)instanceViewWithSize:(CGSize)size 方法初始化这里传入的size就是k线图的大小，建议高度设置为300
- 使用 -(void)reloadData:(NSArray *)data 方法传入数据,
+ 使用 -(void)reloadData:(NSArray *)data 方法传入数据,建议传入30天的数据
  /**
  *   数组中包括k线图的锚点
  *
