@@ -38,5 +38,5 @@ pod 'QCLineView'
 
 ## Author
 
-liyongfei12138, lixin@uqian.com
+liyongfei12138,miap972712779@qq.com
 
